@@ -1,4 +1,4 @@
-﻿using FileInfo = GoogleDriveUploader.Common.Entities.FileInfo;
+﻿using FileInfo = GoogleDriveUploader.AppCore.Entities.FileInfo;
 
 namespace GoogleDriveUploader.TestsHelper.Generators
 {
