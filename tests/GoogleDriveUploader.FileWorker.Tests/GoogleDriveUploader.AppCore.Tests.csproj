@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\GoogleDriveUploader.AppCore\GoogleDriveUploader.AppCore.csproj" />
     <ProjectReference Include="..\GoogleDriveUploader.TestsHelper\GoogleDriveUploader.TestsHelper.csproj" />
   </ItemGroup>
 

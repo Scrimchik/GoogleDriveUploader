@@ -1,7 +1,7 @@
 ﻿using GoogleDriveUploader.TestsHelper.Generators;
 using NUnit.Framework;
-using FileInfo = GoogleDriveUploader.Common.Entities.FileInfo;
-using FileWorkerService = GoogleDriveUploader.FileWorker.FileWorker;
+using FileInfo = GoogleDriveUploader.AppCore.Entities.FileInfo;
+using FileWorkerService = GoogleDriveUploader.AppCore.Services.FileWorker;
 
 namespace GoogleDriveUploader.FileWorker.Tests.Common
 {

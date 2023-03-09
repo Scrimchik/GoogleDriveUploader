@@ -15,11 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.GoogleA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.TestsHelper", "tests\GoogleDriveUploader.TestsHelper\GoogleDriveUploader.TestsHelper.csproj", "{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.FileWorker.Tests", "tests\GoogleDriveUploader.FileWorker.Tests\GoogleDriveUploader.FileWorker.Tests.csproj", "{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.AppCore.Tests", "tests\GoogleDriveUploader.FileWorker.Tests\GoogleDriveUploader.AppCore.Tests.csproj", "{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.Infrastructure", "src\GoogleDriveUploader.Infrastructure\GoogleDriveUploader.Infrastructure.csproj", "{D70184A3-5D71-4EE7-8944-D883475C58B1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.Infrastructure.Tests", "tests\GoogleDriveUploader.Infrastructure.Tests\GoogleDriveUploader.Infrastructure.Tests.csproj", "{1A462FF7-413F-4590-89D4-E344FE16C801}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.AppCore", "src\GoogleDriveUploader.AppCore\GoogleDriveUploader.AppCore.csproj", "{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}"
 EndProject
@@ -53,10 +51,6 @@ Global
 		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A462FF7-413F-4590-89D4-E344FE16C801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A462FF7-413F-4590-89D4-E344FE16C801}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A462FF7-413F-4590-89D4-E344FE16C801}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A462FF7-413F-4590-89D4-E344FE16C801}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,7 +66,6 @@ Global
 		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
 		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
 		{D70184A3-5D71-4EE7-8944-D883475C58B1} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
-		{1A462FF7-413F-4590-89D4-E344FE16C801} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
 		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
