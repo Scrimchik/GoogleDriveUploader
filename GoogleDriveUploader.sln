@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.Worker", "src\GoogleDriveUploader.Web\GoogleDriveUploader.Worker.csproj", "{BA9571DC-3AD9-485B-9430-1431F6A8C2A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.GoogleAccess", "src\GoogleDriveUploader.GoogleAccess\GoogleDriveUploader.GoogleAccess.csproj", "{12CCE033-731E-41B3-8B85-D707820A1A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{438AAD55-7D5E-401A-909B-E1937E7B82C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CF528F2A-0EE2-4CD3-A712-6E5F310573CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.GoogleAccess.Tests", "tests\GoogleDriveUploader.GoogleAccess.Tests\GoogleDriveUploader.GoogleAccess.Tests.csproj", "{DD933BAB-05EA-4E52-9E07-2B781F0AF711}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.TestsHelper", "tests\GoogleDriveUploader.TestsHelper\GoogleDriveUploader.TestsHelper.csproj", "{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.FileWorker.Tests", "tests\GoogleDriveUploader.FileWorker.Tests\GoogleDriveUploader.FileWorker.Tests.csproj", "{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.Infrastructure", "src\GoogleDriveUploader.Infrastructure\GoogleDriveUploader.Infrastructure.csproj", "{D70184A3-5D71-4EE7-8944-D883475C58B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.Infrastructure.Tests", "tests\GoogleDriveUploader.Infrastructure.Tests\GoogleDriveUploader.Infrastructure.Tests.csproj", "{1A462FF7-413F-4590-89D4-E344FE16C801}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleDriveUploader.AppCore", "src\GoogleDriveUploader.AppCore\GoogleDriveUploader.AppCore.csproj", "{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9571DC-3AD9-485B-9430-1431F6A8C2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9571DC-3AD9-485B-9430-1431F6A8C2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9571DC-3AD9-485B-9430-1431F6A8C2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9571DC-3AD9-485B-9430-1431F6A8C2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CCE033-731E-41B3-8B85-D707820A1A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CCE033-731E-41B3-8B85-D707820A1A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CCE033-731E-41B3-8B85-D707820A1A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CCE033-731E-41B3-8B85-D707820A1A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD933BAB-05EA-4E52-9E07-2B781F0AF711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD933BAB-05EA-4E52-9E07-2B781F0AF711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD933BAB-05EA-4E52-9E07-2B781F0AF711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD933BAB-05EA-4E52-9E07-2B781F0AF711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70184A3-5D71-4EE7-8944-D883475C58B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A462FF7-413F-4590-89D4-E344FE16C801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A462FF7-413F-4590-89D4-E344FE16C801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A462FF7-413F-4590-89D4-E344FE16C801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A462FF7-413F-4590-89D4-E344FE16C801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA9571DC-3AD9-485B-9430-1431F6A8C2A1} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
+		{12CCE033-731E-41B3-8B85-D707820A1A25} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
+		{DD933BAB-05EA-4E52-9E07-2B781F0AF711} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
+		{1553FD00-4B0A-4D3F-94BE-DE57F9C5687B} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
+		{DA1683EE-BC6A-40E9-A862-7CE0CC82BA9E} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
+		{D70184A3-5D71-4EE7-8944-D883475C58B1} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
+		{1A462FF7-413F-4590-89D4-E344FE16C801} = {438AAD55-7D5E-401A-909B-E1937E7B82C8}
+		{D51FB9CA-06A3-49D6-92E7-DD40B8AEB2EB} = {CF528F2A-0EE2-4CD3-A712-6E5F310573CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27A39BA4-F963-4187-A28A-37310C358CC1}
+	EndGlobalSection
+EndGlobal
